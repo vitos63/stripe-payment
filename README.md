@@ -128,6 +128,7 @@ docker compose up --build -d
 
 ## Описание переменных окружения
 
+``` .env
 DATABASE_URL=postgresql+asyncpg://user:pass@host/db_name
 DATABASE_HOST=host
 DATABASE_PORT=5432
@@ -137,7 +138,7 @@ DATABASE_PASSWORD=pass
 FRONTEND_URL=http://localhost:3000      # Путь по которому разворачивается frontend приложения
 STRIPE_SECRET_KEY=sk_test_...           # Приватный ключ Stripe, который необходимо получить в личном кабинете Stripe
 STRIPE_WEBHOOK=whsec_...                # Вебхук Stripe, необходимый для отслеживания событий
-
+```
 
 ## Как протестировать оплату?
 
