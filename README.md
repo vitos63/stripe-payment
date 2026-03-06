@@ -14,6 +14,7 @@
 
 ## Структура и архитектура проекта
 
+```text
 ├─── .env_example                   # Пример переменных окружения
 ├─── .gitignore
 ├─── docker-compose.yml
@@ -95,6 +96,7 @@
 │       image-1.png
 │       image-2.png
 │       image.png
+```
 
 ## Шаги по запуску
 
